@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      defer
+      src="https://kit.fontawesome.com/4c0749b77c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script defer src="./header/index.js"></script>
+    <link rel="stylesheet" href="./header/index.css" />
+
+    <script defer src="./contact/index.js"></script>
+    <link rel="stylesheet" href="./contact/index.css" />
+
+    <script defer src="./footer/index.js"></script>
+    <link rel="stylesheet" href="./footer/index.css" />
+
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Matias Arno</title>
+  </head>
+
+  <body>
+    <!-- COMPONENTE REUTILIZABLE -->
+
+    <header class="menu"></header>
+
+    <!-- ADMINISTRADO DESDE CMS -->
+
+    <section class="home" id="home">
+      <h1 class="home__title"></h1>
+      <h2 class="home__subtitle"></h2>
+    </section>
+
+    <!-- ADMINISTRADO DESDE CMS -->
+
+    <section class="about-me" id="about-me">
+      <div class="about-me__image"></div>
+
+      <div class="about-me__content">
+        <h2 class="about-me__title"></h2>
+
+        <p class="about-me__text"></p>
+
+        <div class="about-me__hashtags">
+          <p class="about-me__hashtag"></p>
+          <p class="about-me__hashtag"></p>
+          <p class="about-me__hashtag"></p>
+          <p class="about-me__hashtag"></p>
+          <p class="about-me__hashtag"></p>
+          <p class="about-me__hashtag"></p>
+          <p class="about-me__hashtag"></p>
+          <p class="about-me__hashtag"></p>
+          <p class="about-me__hashtag"></p>
+          <p class="about-me__hashtag"></p>
+          <p class="about-me__hashtag"></p>
+          <p class="about-me__hashtag"></p>
+          <p class="about-me__hashtag"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADMINISTRADO DESDE CMS -->
+
+    <section class="services" id="services">
+      <h2 class="services__title">Services</h2>
+    </section>
+
+    <template class="services-template">
+      <div class="services__service">
+        <div class="services__service-icon"></div>
+
+        <h3 class="services__service-title"></h3>
+
+        <p class="services__service-text"></p>
+      </div>
+    </template>
+
+    <!-- COMPONENTE REUTILIZABLE -->
+
+    <section class="contact" id="contact"></section>
+
+    <!-- COMPONENTE REUTILIZABLE -->
+
+    <section class="footer" id="footer"></section>
+  </body>
+</html>
