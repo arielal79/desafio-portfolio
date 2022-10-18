@@ -11,83 +11,122 @@
       crossorigin="anonymous"
     ></script>
 
-    <script defer src="./header/index.js"></script>
+    <!--<script defer src="./header/index.js"></script>
     <link rel="stylesheet" href="./header/index.css" />
 
     <script defer src="./contact/index.js"></script>
-    <link rel="stylesheet" href="./contact/index.css" />
+    <link rel="stylesheet" href="./contact/index.css" />-->
 
-    <script defer src="./footer/index.js"></script>
-    <link rel="stylesheet" href="./footer/index.css" />
+    <script defer src="./componentes/footer.js"></script>
+    <link rel="stylesheet" href="./componentes/footer.css" />
 
-    <script defer src="./index.js"></script>
-    <link rel="stylesheet" href="index.css" />
+    <script defer src="./pages/index.js"></script>
+    <link rel="stylesheet" href="./pages/index.css" />
 
-    <title>Matias Arno</title>
+    <title>Ariel Alderete</title>
   </head>
 
   <body>
-    <!-- COMPONENTE REUTILIZABLE -->
-
-    <header class="menu"></header>
-
-    <!-- ADMINISTRADO DESDE CMS -->
-
-    <section class="home" id="home">
-      <h1 class="home__title"></h1>
-      <h2 class="home__subtitle"></h2>
-    </section>
-
-    <!-- ADMINISTRADO DESDE CMS -->
-
-    <section class="about-me" id="about-me">
-      <div class="about-me__image"></div>
-
-      <div class="about-me__content">
-        <h2 class="about-me__title"></h2>
-
-        <p class="about-me__text"></p>
-
-        <div class="about-me__hashtags">
-          <p class="about-me__hashtag"></p>
-          <p class="about-me__hashtag"></p>
-          <p class="about-me__hashtag"></p>
-          <p class="about-me__hashtag"></p>
-          <p class="about-me__hashtag"></p>
-          <p class="about-me__hashtag"></p>
-          <p class="about-me__hashtag"></p>
-          <p class="about-me__hashtag"></p>
-          <p class="about-me__hashtag"></p>
-          <p class="about-me__hashtag"></p>
-          <p class="about-me__hashtag"></p>
-          <p class="about-me__hashtag"></p>
-          <p class="about-me__hashtag"></p>
+    <section class="contenedor-uno">
+      <header class="header">
+        <img class="pri-logo-uno" src="./img/logo.png" alt="" />
+        <div class="menu-hamburger">
+          <div class="barra"></div>
+          <div class="barra"></div>
+          <div class="barra"></div>
+        </div>
+        <div class="pri-menu">
+          <h3 class="pri-info">Quién soy</h3>
+          <h3 class="pri-info">Servicios</h3>
+          <h3 class="pri-info">Escribime</h3>
+        </div>
+      </header>
+      <div class="pri-contenedor">
+        <div class="pri-titulo-contenedor">
+          <h1 class="pri-titulo">Bienvenidxs a mi site</h1>
+        </div>
+        <div class="pri-imagen-c">
+          <img class="pri-imagen" src="./img/Ariel.png" alt="" />
         </div>
       </div>
     </section>
-
-    <!-- ADMINISTRADO DESDE CMS -->
-
-    <section class="services" id="services">
-      <h2 class="services__title">Services</h2>
-    </section>
-
-    <template class="services-template">
-      <div class="services__service">
-        <div class="services__service-icon"></div>
-
-        <h3 class="services__service-title"></h3>
-
-        <p class="services__service-text"></p>
+    <section class="contenedor-dos">
+      <div class="contenedor-textos">
+        <div class="contenedor-presentacion">
+          <h2 class="titulo-presentacion">Soy Ariel</h2>
+          <div class="contenedor-parrafo">
+            <h3 class="parrafo">
+              Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+              vehicula velit. Aenean lobortis posuere tristique. Phasellus
+              placerat arcu elementum nisi ultrices cursus. Etiam sit amet
+              aliquet lacus. Integer ut iaculis augue, sit amet tincidunt ex. In
+              eleifend justo et sodales semper. Mauris nec tortor lectus.
+              Curabitur nec ultricies dolor.
+            </h3>
+          </div>
+        </div>
+        <div class="contenedor-imagen">
+          <img src="" alt="" class="imagen" />
+        </div>
       </div>
-    </template>
-
-    <!-- COMPONENTE REUTILIZABLE -->
-
-    <section class="contact" id="contact"></section>
-
-    <!-- COMPONENTE REUTILIZABLE -->
-
-    <section class="footer" id="footer"></section>
+    </section>
+    <section class="contenedor-tres">
+      <div class="contenedor-servicios">
+        <h2 class="titulo-servicios">Mis Servicios</h2>
+      </div>
+      <div class="contenedor-elementos">
+        <div class="servicio-elemento">
+          <img src="./img/monitor-de-pc.png" alt="" class="logo-servicio" />
+          <h3 class="subtitulo-servicio">Hago cosas</h3>
+          <p class="parrafo-servicio">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+        <div class="servicio-elemento">
+          <img src="./img/monitor-de-pc.png" alt="" class="logo-servicio" />
+          <h3 class="subtitulo-servicio">Mas cosas</h3>
+          <p class="parrafo-servicio">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+        <div class="servicio-elemento">
+          <img src="./img/monitor-de-pc.png" alt="" class="logo-servicio" />
+          <h3 class="subtitulo-servicio">Y otras cosas...</h3>
+          <p class="parrafo-servicio">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="contenedor-cuatro">
+      <div class="contenedor-escribime">
+        <div class="contenedor-titulo-escribime">
+          <h2 class="titulo-escribime">Escribime</h2>
+        </div>
+        <div class="fieldset">
+          <label for="name" class="label">NOMBRE</label>
+          <input type="text" class="input-text" />
+        </div>
+        <div class="fieldset">
+          <label for="name" class="label">EMAIL</label>
+          <input type="text" class="input-text" />
+        </div>
+        <div class="fieldset">
+          <label for="name" class="label">Mensaje</label>
+          <textarea id="massege" cols="30" rows="5" class="textarea"></textarea>
+        </div>
+        <div class="button">
+          <button class="button">Enviar</button>
+        </div>
+      </div>
+    </section>
+    <section class="footer__conteiner"></section>
   </body>
 </html>
