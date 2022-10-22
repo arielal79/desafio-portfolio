@@ -40,3 +40,62 @@ body{
     font-size: 32px;
   }
 
+  .seccion__sobremi{
+    background-color: #141414;
+    width: 100vw;
+    height: 538px;
+  }
+
+  .sobremi__conteiner{
+    height: 538px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    text-align: center;
+    padding: 50px 30px;
+  }
+
+  .foto__conteiner{
+    display: none;
+    width: 380px;
+    height: 480px;
+  }
+
+  .parrafo__conteiner{
+    padding: 40px;
+    max-height: 340px;
+  }
+  .titulo-sobremi{
+    color: white;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .parrafo-sobremi{
+    text-align: initial;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin: 50px auto;
+  }
+
+
+  .servicios-logo {
+    width: 200px;
+    height: 190px;
+  }
+  .servicios__contenedor {
+    padding-bottom: 100px;
+  }
+
+  .form__conteiner {
+    height: 100%;
+    background-color: black;
+  }
+
+
+  
+

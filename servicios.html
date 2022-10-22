@@ -4,52 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <script
-      defer
-      src="https://kit.fontawesome.com/4c0749b77c.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <script defer src="./header/index.js"></script>
-    <link rel="stylesheet" href="./header/index.css" />
-
-    <script defer src="./footer/index.js"></script>
-    <link rel="stylesheet" href="./footer/index.css" />
-
-    <script defer src="./index.js"></script>
-    <link rel="stylesheet" href="index.css" />
-
-    <title>Matias Arno</title>
+    <title>Servicios</title>
+    <script defer src="./componentes/header.js"></script>
+    <link rel="stylesheet" href="./componentes/header.css" />
+    <script src="./componentes/dataservicos.js"></script>
+    <link rel="stylesheet" href="./componentes/dataservivios.css" />
+    <script defer src="./pages/servicios.js"></script>
+    <link rel="stylesheet" href="./pages/servicios.css" />
+    <script src="./componentes/footer.js"></script>
+    <link rel="stylesheet" href="./componentes/footer.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
-
   <body>
-    <!-- COMPONENTE REUTILIZABLE -->
+    <section class="bienvenida__conteiner">
+      <div class="header-component"></div>
 
-    <header class="menu"></header>
-
-    <!-- ADMINISTRADO DESDE CMS -->
-
-    <section class="services" id="services">
-      <h2 class="services__title">Services</h2>
+      <div class="bienvenida__conteiner-titulos">
+        <div class="bienvenida__titulos">
+          <h1 class="bienvenida__titulo">Portafolio/Servicios</h1>
+        </div>
+      </div>
     </section>
 
-    <template class="services-template">
-      <div class="services__service">
-        <div class="services__service-icon"></div>
-
-        <h3 class="services__service-title"></h3>
-
-        <p class="services__service-text"></p>
+    <section class="servicios__contenedor">
+      <div class="header__servicios"></div>
+      <div class="servicios-titulo-contenedor">
+        <h2 class="servicios-titulo">Servicios</h2>
       </div>
-    </template>
+      <div class="servicios-contenedor"></div>
+    </section>
 
-    <!-- COMPONENTE REUTILIZABLE -->
-
-    <section class="footer" id="footer"></section>
-
-    <a href="./index.html" class="home-link"
-      ><button class="home-link__button">Home</button></a
-    >
+    <section class="footer__conteiner"></section>
   </body>
 </html>
