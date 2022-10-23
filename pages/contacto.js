@@ -3,6 +3,11 @@ function agregarHeader() {
   addHeader(headerContacto);
 }
 
+function agregarForm() {
+  const formulario = document.querySelector(".form__conteiner");
+  contacto(formulario);
+}
+
 function agregarFooter() {
   const footer = document.querySelector(".footer__conteiner");
   addFooter(footer);
@@ -10,6 +15,7 @@ function agregarFooter() {
 
 function main() {
   agregarHeader();
+  agregarForm();
   agregarFooter();
 }
 

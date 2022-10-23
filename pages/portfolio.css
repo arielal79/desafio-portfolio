@@ -1,0 +1,36 @@
+.bienvenida__conteiner {
+    background: linear-gradient(
+      107.17deg,
+      #559ac2 29.35%,
+      rgba(2, 64, 100, 0.8) 78.73%
+    );
+  }
+  @media (max-width: 960px) {
+    .bienvenida__conteiner {
+      display: none;
+    }
+  }
+  .servicios__contenedor {
+    background: #000000;
+    padding-bottom: 100px;
+  }
+  .servicios-titulo {
+    color: white;
+  }
+  @media (min-width: 960px) {
+    .servicios-titulo {
+      display: none;
+    }
+  }
+  .servicios-subtitulo {
+    color: white;
+  }
+  .servicios-parrafo {
+    color: white;
+  }
+  /* HEADER SERVICIOS */
+  @media (min-width: 960px) {
+    .header__servicios {
+      display: none;
+    }
+  }

@@ -46,6 +46,12 @@ body{
     height: 538px;
   }
 
+  @media (min-width: 960px){
+    .seccion__sobremi{
+      background-color:  #ffffff;
+    }
+  }
+
   .sobremi__conteiner{
     height: 538px;
     display: grid;
@@ -55,22 +61,42 @@ body{
     padding: 50px 30px;
   }
 
+  @media(min-width: 960px){
+    .sobremi__conteiner{
+      padding: 45px 5%;
+      padding-right: 45px;
+    }
+  }
+
   .foto__conteiner{
     display: none;
     width: 380px;
     height: 480px;
   }
 
+  @media (min-width: 960px){
+    .foto__conteiner{
+      display: inherit;
+    }
+  }
+
   .parrafo__conteiner{
     padding: 40px;
     max-height: 340px;
   }
+
   .titulo-sobremi{
     color: white;
     margin: 0 auto;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 32px;
+  }
+  @media (min-width: 960px){
+    .titulo-sobremi{
+      color: #2c2c2c;
+      text-align: justify;
+    }
   }
 
   .parrafo-sobremi{
@@ -81,6 +107,13 @@ body{
   color: white;
   margin: 50px auto;
   }
+  @media (min-width: 960px) {
+    .parrafo-sobremi {
+      color: #2c2c2c;
+      font-size: 24px;
+      max-height: 340px;
+    }
+  }
 
 
   .servicios-logo {
@@ -89,6 +122,11 @@ body{
   }
   .servicios__contenedor {
     padding-bottom: 100px;
+  }
+  @media (min-width: 960px) {
+    .servicios-contenedor {
+        grid-template-rows: 400px;
+   }
   }
 
   .form__conteiner {
