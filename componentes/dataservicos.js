@@ -30,7 +30,7 @@ function procesDataServicios(datos) {
     let parrafo;
     let img;
 
-    if (item.sys.contentType.sys.id == "desafioModulo4Servicios") {
+    if (item.sys.contentType.sys.id == "servicios") {
       console.log(item);
       titulo = item.fields.titulo;
       parrafo = item.fields.parrafo;
@@ -54,7 +54,7 @@ function procesDataPortfolio(datos) {
     let parrafo;
     let img;
     let url;
-    if (item.sys.contentType.sys.id == "desafioModulo4Portfolio") {
+    if (item.sys.contentType.sys.id == "portfolio") {
       console.log(item);
       titulo = item.fields.titulo;
       parrafo = item.fields.parrafo;

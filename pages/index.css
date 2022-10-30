@@ -120,12 +120,12 @@ body{
     width: 200px;
     height: 190px;
   }
-  .servicios__contenedor {
+  .servicios__conteiner {
     padding-bottom: 100px;
   }
   @media (min-width: 960px) {
     .servicios-contenedor {
-        grid-template-rows: 400px;
+        grid-template-rows: 500px;
    }
   }
 

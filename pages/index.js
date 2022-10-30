@@ -16,7 +16,7 @@ function agregarFooter() {
 function contenfulFetch() {
   const promesa = fetch(
     `
-    https://cdn.contentful.com/spaces/sira3rgjcuk8/environments/master/entries/?access_token=_90XOUJILpmOL958dCQI0xTSsX_-kGlXQiSQ6AFG3oI`
+    https://cdn.contentful.com/spaces/ueuv9mhnfwgs/environments/master/entries/?access_token=Ia6BfYDsRlmnDhrhVWQE6qMOLMp2bnbpryiNP81-GPc`
   );
   promesa.then((res) => {
     res.json().then((dato) => {
