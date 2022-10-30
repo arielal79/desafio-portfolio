@@ -27,6 +27,9 @@
     align-items: center;
     text-align: center;
   }
+  .footer-logo {
+    opacity: .2;
+  }
   
   .inst-img,
   .link-img,

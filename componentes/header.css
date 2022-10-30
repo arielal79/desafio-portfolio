@@ -15,11 +15,13 @@
   .header-logo {
     height: 120px;
     padding-top: 30px;
+    opacity: .2;
   }
   @media(min-width: 960px) {
     .header-logo {
       height: 200px;     
       margin-top: 65px;
+      opacity: .2;
     }
     
   }
